@@ -15,6 +15,7 @@ public class ApiException {
 		this.message = message;
 		this.httpStatus = httpStatus;
 		this.timestamp = timestamp;
+		
 	}
 	public String getMessage() {
 		return message;
